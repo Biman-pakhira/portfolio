@@ -131,7 +131,7 @@
 
         <h2 class="projects">Projects</h2>
         <div class="project">
-            <h3><a href="https://github.com/Biman-pakhira/ColliLiber.git"> Student Preparation App</a></h3>
+            <h3><a href="https://biman-pakhira.github.io/ColliLiber/"> Student Preparation App</a></h3>
             <p>
                 Successfully designed and implemented a Student Preparation App, showcasing proficiency in web development and the ability to create user-friendly applications.
             </p>
