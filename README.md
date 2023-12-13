@@ -94,7 +94,7 @@
     <section>
         <h2>About Me</h2>
         <p>
-            I am a passionate programmer based in Howrah, West Bengal. During my academic journey, I honed my programming skills in C, Java, Python, SQL, HTML, CSS, JavaScript, and ReactJS. These languages have equipped me with a strong foundation in software development, enabling me to approach challenges with a diverse and adaptable mindset.
+            I am a passionate programmer based in Howrah, West Bengal. During my academic journey, I honed my programming skills in C, Java, Python, SQL, HTML, CSS, JavaScript, ReactJS and NodeJS. These languages have equipped me with a strong foundation in software development, enabling me to approach challenges with a diverse and adaptable mindset.
         </p>
         <p>
             Because of your commitment to cutting-edge technologies, which aligns perfectly with my skills and ambitions.
