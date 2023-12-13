@@ -131,17 +131,18 @@
 
         <h2 class="projects">Projects</h2>
         <div class="project">
+            <h3><a href="https://github.com/Biman-pakhira/ColliLiber.git"> Student Preparation App</a></h3>
+            <p>
+                Successfully designed and implemented a Student Preparation App, showcasing proficiency in web development and the ability to create user-friendly applications.
+            </p>
+        </div>
+        <div class="project">
             <h3>AWS Automation System</h3>
             <p>
                 I spearheaded the development of an AWS automation system during my college project. This project deepened my understanding of cloud computing and enhanced my problem-solving skills within a team.
             </p>
         </div>
-        <div class="project">
-            <h3>Student Preparation App</h3>
-            <p>
-                Successfully designed and implemented a Student Preparation App, showcasing proficiency in web development and the ability to create user-friendly applications.
-            </p>
-        </div>
+        
     </section>
 
     <footer>
