@@ -92,6 +92,16 @@ body{
     animation-delay: .7s;
     
 }
+.intro{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+    margin: 10%;
+    text-shadow: 4%;
+    color: rgb(7, 79, 79);
+}
 
 .home-content h3 span{
     color: rgb(40, 137, 158);
@@ -210,6 +220,7 @@ body{
         transform: scale(1);
         opacity: 1;
     }
+}
 *{
     margin: 0;
     padding: 0;
@@ -295,6 +306,16 @@ body{
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
     
+}
+.intro{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+    margin: 10%;
+    text-shadow: 4%;
+    color: rgb(7, 79, 79);
 }
 
 .home-content h3:nth-of-type(2){
