@@ -78,7 +78,6 @@
                 scrollTop.classList.remove('active');
             }
             
-            // Active nav link
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
