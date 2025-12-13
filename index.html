@@ -3,54 +3,424 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Biman Pakhira - Full Stack Developer</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!-- header -->
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <nav class="navbar">
-            <a href="#" style="--i:1;" class="active">Home</a>
-            <a href="about" style="--i:2;" class="active"> About</a>
-            <a href="#" style="--i:3;"> Skills</a>
-            <a href="#" style="--i:4;"> Contact</a>
-        </nav>
-
+        <a href="#home" class="logo">Biman<span>.dev</span></a>
+        <div class="nav-right">
+            <nav class="navbar" id="navbar">
+                <a href="#home" style="--i:1;" class="active">Home</a>
+                <a href="#about" style="--i:2;">About</a>
+                <a href="#skills" style="--i:3;">Skills</a>
+                <a href="#projects" style="--i:4;">Projects</a>
+                <a href="#contact" style="--i:5;">Hire Me</a>
+            </nav>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class='bx bx-moon' id="theme-icon"></i>
+            </div>
+            <i class='bx bx-menu menu-icon' id="menu-icon"></i>
+        </div>
     </header>
-    <section class="home">
-            <div class="home-content">
-                <h3>Hello, It's me</h3>
-                <h1>Biman Pakhira</h1>
-                <h3>And I'm a <span class="multiple-text"></span> </h3>
 
-                
-
-                <a href="https://drive.google.com/file/d/1w40jtEKbwmhzynDj6jUe5W9fDGrgHa4l/view?usp=sharing" class="btn">Download resume</a>
-
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Biman Pakhira</h1>
+            <h3>Full Stack Developer <span class="multiple-text"></span></h3>
+            <p>Building end-to-end web applications with expertise in frontend, backend, and database technologies. From React UIs to Node.js APIs and optimized database architectures.</p>
+            
+            <div class="tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Express</span>
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">AWS</span>
+                <span class="tech-badge">REST APIs</span>
             </div>
 
-            <div class="home-img">
-                <img src="profile.png" alt="Some issues" height="100%" width="100%">
-            </div>
-        </section>
-        <section class="about-section">
-            <div>
-                <p class="intro">As a versatile and driven software developer, I specialize in both frontend and backend development, with a strong foundation in various programming languages and technologies. My expertise spans from creating dynamic and responsive user interfaces to building robust server-side applications. With hands-on experience in Python, Java, HTML, CSS, React, Node.js, MySQL, and MongoDB, I bring a comprehensive skill set to the table.</p>
-            </div>
-        </section>
-         <script src="https://unpkg.com/typed.js@2.0.16"></script>
-         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-         <script src="index.js"></script>
-
-        <div>
             <div class="social-media">
-                <a href="https://www.facebook.com/biman.pakhira" style="--i:7;"> <i class="bx bxl-facebook"></i></a>
+                <a href="https://www.facebook.com/biman.pakhira" style="--i:7;"><i class="bx bxl-facebook"></i></a>
+                <a href="https://github.com/Biman-pakhira" style="--i:8;"><i class="bx bxl-github"></i></a>
                 <a href="https://www.instagram.com/_.the.overthinker._/" style="--i:9;"><i class="bx bxl-instagram-alt"></i></a>
                 <a href="https://www.linkedin.com/in/biman-pakhira-015298235/" style="--i:10;"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/Biman-pakhira" style="--i:8;"  ><i class="bx bxl-github"></i></a>
+            </div>
+            
+            <a href="https://drive.google.com/file/d/1w40jtEKbwmhzynDj6jUe5W9fDGrgHa4l/view?usp=sharing" class="btn" target="_blank">Download Resume</a>
+            <a href="#contact" class="btn">Hire Me Now</a>
+        </div>
+
+        <div class="home-img">
+            <img src="profile.png" alt="Profile">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Full Stack Developer | Immediate Joiner | Former Sunknowledge Employee</p>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="https://via.placeholder.com/400" alt="About">
+            </div>
+            <div class="about-text">
+                <h2>Full Stack Development Expertise</h2>
+                <p>I'm a passionate Full Stack Developer with deep expertise in both client-side and server-side technologies. I build scalable web applications with robust backend architectures, efficient database designs, and seamless user interfaces.</p>
+                <p>My backend expertise includes building RESTful APIs with Node.js/Express and Python/Django, implementing authentication systems, managing server infrastructure, and designing microservices. On the database side, I architect both SQL and NoSQL solutions, optimize query performance, and ensure data integrity.</p>
+                <p>From my experience at Sunknowledge, I've mastered the complete development lifecycle: frontend development with React, backend API development, database schema design, cloud deployment on AWS, and DevOps practices. I excel at connecting all these layers into cohesive, production-ready applications.</p>
+                
+                <div class="experience-highlight">
+                    <div class="exp-item">
+                        <h3>10+</h3>
+                        <p>Full Stack Projects</p>
+                    </div>
+                    <div class="exp-item">
+                        <h3>8+</h3>
+                        <p>Technologies</p>
+                    </div>
+                    <div class="exp-item">
+                        <h3>100%</h3>
+                        <p>Production Ready</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-subtitle">Full Stack Development Skills</p>
+        
+        <div class="skills-tabs">
+            <button class="tab-btn active" data-tab="frontend">Frontend</button>
+            <button class="tab-btn" data-tab="backend">Backend</button>
+            <button class="tab-btn" data-tab="database">Database</button>
+            <button class="tab-btn" data-tab="tools">Tools & DevOps</button>
+        </div>
+
+        <div class="skills-content active" id="frontend">
+            <div class="skill-card">
+                <i class='bx bxl-react'></i>
+                <h3>React.js</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Advanced</span><span>90%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript / ES6+</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Expert</span><span>95%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 95%"></div></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML5 & CSS3</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Expert</span><span>95%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 95%"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-content" id="backend">
+            <div class="skill-card">
+                <i class='bx bxl-nodejs'></i>
+                <h3>Node.js & Express</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Advanced</span><span>88%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 88%"></div></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bxl-python'></i>
+                <h3>Python & Django</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Advanced</span><span>85%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-code-alt'></i>
+                <h3>RESTful APIs</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Expert</span><span>92%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 92%"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-content" id="database">
+            <div class="skill-card">
+                <i class='bx bxl-mongodb'></i>
+                <h3>MongoDB</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Advanced</span><span>87%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 87%"></div></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bxs-data'></i>
+                <h3>MySQL</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Advanced</span><span>85%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-data'></i>
+                <h3>SQL & NoSQL</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Expert</span><span>90%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-content" id="tools">
+            <div class="skill-card">
+                <i class='bx bxl-git'></i>
+                <h3>Git & GitHub</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Expert</span><span>93%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 93%"></div></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bxl-aws'></i>
+                <h3>AWS Cloud</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Intermediate</span><span>75%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 75%"></div></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class='bx bxl-docker'></i>
+                <h3>Docker & CI/CD</h3>
+                <div class="skill-progress">
+                    <div class="skill-name"><span>Intermediate</span><span>78%</span></div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 78%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Recent Full Stack Development Work</p>
+        
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="Img3.png" alt="Project 1">
+                    <div class="project-overlay">
+                        <a href="https://github.com/Biman-pakhira/Claim-Management-System/tree/main"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Biman-pakhira"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Claim Management System</h3>
+                    <p>Full-stack e-commerce application with payment integration, user authentication, and admin dashboard.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x220/1a1a1a/28899e?text=Task+Management+App" alt="Project 2">
+                    <div class="project-overlay">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Biman-pakhira"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Task Management System</h3>
+                    <p>Real-time collaborative task management tool with drag-and-drop functionality and team features.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">Socket.io</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x220/1a1a1a/28899e?text=Social+Media+Dashboard" alt="Project 3">
+                    <div class="project-overlay">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Biman-pakhira"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Social Media Dashboard</h3>
+                    <p>Analytics dashboard for social media metrics with data visualization and reporting features.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Chart.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x220/1a1a1a/28899e?text=Weather+App" alt="Project 4">
+                    <div class="project-overlay">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Biman-pakhira"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Weather Forecast Application</h3>
+                    <p>Real-time weather application with location-based forecasts and interactive maps.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">Geolocation</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x220/1a1a1a/28899e?text=Blog+Platform" alt="Project 5">
+                    <div class="project-overlay">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Biman-pakhira"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Blog Publishing Platform</h3>
+                    <p>Content management system with rich text editor, commenting, and user profiles.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x220/1a1a1a/28899e?text=Portfolio+Builder" alt="Project 6">
+                    <div class="project-overlay">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/Biman-pakhira"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Builder Tool</h3>
+                    <p>Dynamic portfolio generator allowing users to create custom portfolio websites without coding.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AWS S3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Hire Me</h2>
+        <p class="section-subtitle">Available for Full Stack Development Projects</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="hire-cta">
+                    <h3>🚀 Immediate Joiner Available</h3>
+                    <p>Looking for a dedicated Full Stack Developer who can deliver production-ready applications? I'm ready to join your team and contribute from day one!</p>
+                    <ul>
+                        <li><i class='bx bx-check-circle'></i> End-to-end web development</li>
+                        <li><i class='bx bx-check-circle'></i> Frontend & Backend expertise</li>
+                        <li><i class='bx bx-check-circle'></i> Database design & optimization</li>
+                        <li><i class='bx bx-check-circle'></i> Cloud deployment & DevOps</li>
+                        <li><i class='bx bx-check-circle'></i> Agile development approach</li>
+                    </ul>
+                    <a href="mailto:bimanpakhira2@gmail.com" class="btn">Email Me Directly</a>
+                </div>
+
+                <div class="contact-item">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="contact-item-text">
+                        <h3>Email</h3>
+                        <p>bimanpakhira2@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bxl-linkedin-square'></i>
+                    <div class="contact-item-text">
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/biman-pakhira-015298235</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bxl-github'></i>
+                    <div class="contact-item-text">
+                        <h3>GitHub</h3>
+                        <p>github.com/Biman-pakhira</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject *" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Project Details / Message *" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Biman Pakhira. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+    <!--for scroll to top-->
+    <div class="scroll-top" id="scroll-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
 </body>
 </html>
